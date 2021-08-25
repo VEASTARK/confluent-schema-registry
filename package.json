@@ -21,7 +21,7 @@
     "test:debug": "ts-node ./dockest.ts debug",
     "lint": "eslint './src/**/*.ts'",
     "format": "yarn lint --fix",
-    "postinstall": "tsc --outDir ./build && rm -rf ./src && rn -rf ./bin && rm ./.dockerignore ./.prettierrc.js ./Dockerfile ./docktest.ts ./jest.setup.ts ./tsconfig.json"
+    "postinstall": "tsc --outDir ./build && rm -rf ./src && rm -rf ./bin && rm ./.dockerignore ./.prettierrc.js ./Dockerfile ./docktest.ts ./jest.setup.ts ./tsconfig.json"
   },
   "dependencies": {
     "ajv": "^7.1.0",
