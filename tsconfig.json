@@ -9,7 +9,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
-    "strict": true,
+    "strict": false,
     "target": "es2019",
     "noUnusedParameters": true,
     "noUnusedLocals": true,
